@@ -76,6 +76,15 @@ resource eventGrid 'Microsoft.EventGrid/topics@2022-06-15' = {
 }
 ```
 
+??? Example "Configure with [Azure Verified Modules][avm]"
+
+    - Set the `params.disableLocalAuth` parameter to `true` (default).
+
+
+    <!-- snippet:avm eventgrid.bicep -->
+
+    [avm]: https://github.com/Azure/bicep-registry-modules/tree/main/avm/res/event-grid/topic
+
 ## LINKS
 
 - [SE:05 Identity and access management](https://learn.microsoft.com/azure/well-architected/security/identity-access)
